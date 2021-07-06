@@ -1,0 +1,109 @@
+header{
+    color: white;
+    background-color:#fd5130;
+    text-align: center;
+}
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.text-color{
+    color: orange;
+}
+.text-color-grey{
+    color: #575757;
+}
+.first-section-wide{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 10%;
+    padding-bottom: 20px;
+}
+.half-width img{
+    width: 130%;  
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 17px 35px;
+    color: white;
+    font-weight: 700;
+    border-radius: 40px;
+
+}
+#background-img{
+    background-image: url(images/shapes/Background-img-01.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;   
+
+}
+.third-half-width{
+    width: 45%;
+    padding-top: 80px;
+    padding-right: 22%;
+}
+.third-half-width img{
+    width: 70%;
+    padding-left: 220px;
+}
+.my-recipies{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.flexible-container{
+    display: flex;
+}
+.recipie-item{
+    width: 50%;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 25px;
+    text-align: center;
+    
+    
+}
+.recipie-item img{
+    width: 90%; 
+    padding: 10px;
+    padding-top: 25px;
+}
+.social-activity{
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.social-activity-shadow{
+    width: 80%;
+    display: flex;
+    margin-left: 9%;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 40px gray;
+    
+    
+}
+footer{
+    background-color: black;
+    padding: 2%;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    color: white;
+}
